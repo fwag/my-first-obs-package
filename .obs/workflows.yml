@@ -1,0 +1,7 @@
+rebuild_master:
+  steps:
+    - rebuild_package:
+        project: home:knip
+        package: my-first-obs-package
+  filters:
+    event: push
